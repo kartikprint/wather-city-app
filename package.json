@@ -11,6 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
-    "node-fetch": "2"
-  }
+    "node-fetch": "2",
+    "node": "16.13.0"
+  },
+  "engines": {
+  "node": "16.13.0"
+}
 }
