@@ -91,15 +91,15 @@ The API will return the current weather data for the requested city in JSON form
   }
 }
 
-Error Handling
-City Name is Required: If no city name is provided, the API will respond with a 400 Bad Request and the message "City name is required".
+## Error Handling
+**City Name is Required:** If no city name is provided, the API will respond with a **400 Bad Request** and the message **"City name is required"**.
 
-Invalid API Key: If the API key is invalid or expired, the API will respond with a 400 Bad Request and an error message indicating that a valid API key is required.
+**Invalid API Key:** If the API key is invalid or expired, the API will respond with a **400 Bad Request** and an error message indicating that a **valid API key is required**.
 
-Configuration
-API Key: Replace the apiKey variable in the city.js file with your own Weatherstack API key.
-const apiKey = "YOUR_API_KEY"; // Replace with your actual Weatherstack API key
+## Configuration
+**API Key:** Replace the apiKey variable in the city.js file with your own Weatherstack API key.
+**const apiKey = "YOUR_API_KEY";**
 
-Dependencies
+## Dependencies
 express - A web application framework for Node.js.
 node-fetch - A lightweight module that brings window.fetch to Node.js.
