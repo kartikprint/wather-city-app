@@ -10,11 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2",
+    "express": "14.19.0",
     "node-fetch": "2",
-    "node": "14.18.2"
+    "node": "14.19.0"
   },
   "engines": {
-  "node": ">=14.19.0 <=16.x"
+  "node": "14.19.0"
 }
 }
