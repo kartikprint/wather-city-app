@@ -42,7 +42,7 @@ Replace `<CITY_NAME>` with the name of the city you want to query.
 
 Example:
 
-http://localhost:8000/?city=New York
+http://localhost:8000/?city=Rome
 
 3. **Response:**
 
@@ -52,24 +52,24 @@ The API will return the current weather data for the requested city in JSON form
 {
   "request": {
     "type": "City",
-    "query": "New York, United States of America",
+    "query": "Rome, Italy",
     "language": "en",
     "unit": "m"
   },
   "location": {
-    "name": "New York",
-    "country": "United States of America",
-    "region": "New York",
-    "lat": "40.714",
-    "lon": "-74.006",
-    "timezone_id": "America/New_York",
-    "localtime": "2024-08-28 12:42",
-    "localtime_epoch": 1724848920,
-    "utc_offset": "-4.0"
+    "name": "Rome",
+    "country": "Italy",
+    "region": "Lazio",
+    "lat": "41.900",
+    "lon": "12.483",
+    "timezone_id": "Europe/Rome",
+    "localtime": "2024-08-28 19:17",
+    "localtime_epoch": 1724872620,
+    "utc_offset": "2.0"
   },
   "current": {
-    "observation_time": "04:42 PM",
-    "temperature": 29,
+    "observation_time": "05:17 PM",
+    "temperature": 32,
     "weather_code": 113,
     "weather_icons": [
       "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
@@ -77,16 +77,16 @@ The API will return the current weather data for the requested city in JSON form
     "weather_descriptions": [
       "Sunny"
     ],
-    "wind_speed": 4,
-    "wind_degree": 291,
-    "wind_dir": "WNW",
-    "pressure": 1015,
+    "wind_speed": 11,
+    "wind_degree": 250,
+    "wind_dir": "WSW",
+    "pressure": 1014,
     "precip": 0,
-    "humidity": 59,
+    "humidity": 32,
     "cloudcover": 0,
-    "feelslike": 30,
-    "uv_index": 8,
-    "visibility": 16,
+    "feelslike": 34,
+    "uv_index": 6,
+    "visibility": 10,
     "is_day": "yes"
   }
 }
