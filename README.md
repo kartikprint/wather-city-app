@@ -90,6 +90,7 @@ The API will return the current weather data for the requested city in JSON form
     "is_day": "yes"
   }
 }
+```
 
 ## Error Handling
 **City Name is Required:** If no city name is provided, the API will respond with a **400 Bad Request** and the message **"City name is required"**.
@@ -101,5 +102,5 @@ The API will return the current weather data for the requested city in JSON form
 **const apiKey = "YOUR_API_KEY";**
 
 ## Dependencies
-express - A web application framework for Node.js.
-node-fetch - A lightweight module that brings window.fetch to Node.js.
+**express** - A web application framework for Node.js.
+**node-fetch** - A lightweight module that brings window.fetch to Node.js.
