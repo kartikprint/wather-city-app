@@ -1,1 +1,2 @@
-web: node city.js
+touch Procfile
+echo "web: node server.js" > Procfile
