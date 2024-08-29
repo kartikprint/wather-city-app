@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "heroku-prebuild": "pnpm install --no-frozen-lockfile",
-     "start": "node city.js"
+     "start": "npm start"
   },
   "keywords": [],
   "author": "",
