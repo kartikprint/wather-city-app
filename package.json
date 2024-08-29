@@ -14,10 +14,10 @@
   "dependencies": {
     "express": "4.19.2",
     "node-fetch": "2",
-    "node": "14.19.0"
+    "node": "18.12"
   },
   "engines": {
-  "node": "14.19.0",
+  "node": "v18.12",
   "pnpm": "6.11.0"
 }
 }
